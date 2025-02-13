@@ -1,4 +1,4 @@
-FROM docker:24-dind  # Imagen de Docker con soporte para Docker-in-Docker
+FROM moby/buildkit:latest # Imagen de Docker con soporte para Docker-in-Docker
 
 # Instalar herramientas necesarias
 RUN apk add --no-cache \
